@@ -1,0 +1,19 @@
+{
+    "name": "adoronichev/sample",
+    "description": "Test package for hw3 in OTUS",
+    "authors": [
+        {
+            "name": "Alexander Doronichev",
+            "email": "alexander.doronichev@mail.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ADoronichev\\Sample\\": "src/"
+        }
+    }
+}
